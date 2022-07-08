@@ -6,65 +6,43 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
-        <title>Create Next App</title>
+        <title>U-lab公式サイト 活動紹介</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+      <main className="flex justify-center relative pt-4 md:pt-20 pb-20">
+        <div style={{ maxWidth: 1000 }}>
+          <div className="flex flex-col-reverse md:flex-roq justify-center px-4 md:px-0">
+            <div>
+              <p className="mb-4 text-lg font-bold tracking-widest">大学や街を遊び歩く</p>
+              <h2 className="mb-4 text-4xl font-bold tracking-widest">
+                <div className="mb-4">地域に根差す</div>
+                <div>テクノロジー集団</div>
+              </h2>
+              <p className="tracking-wide leading-loose">"学生団体U-labは、宇都宮大学の学生が中心となって、デザインやテクノロジーを用いて街や大学に対して面白いことを企て、実行する学生団体です。
+                圧倒的なインプット環境、普通では参加できないインターン、大規模なチームプロジェクトなどを行い、宇都宮大学で最も勢いのある学生団体を目指します。
+                また、定期的なゲーム会やご飯会などを通し、日々仲を深めています。
+              </p>
+            </div>
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
+            <div>
+              <h1 style={{ minWidth: '320px' }} className="flex justify-center">
+                  <div className="hidden md:block">
 
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+                  </div>
+                  <div className="md:hidden pb-4 pl-8"></div>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center md-20">
+          <div style={{maxWidth: 1000}}>
+            <h2 className="mb-6 text-center">
+              <span>U-labの</span>
+              <br></br>
+              <span className="text-2xl font-bold tracking-widest">活動内容</span> 
+            </h2> 
+          </div>
         </div>
       </main>
 
